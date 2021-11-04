@@ -1,4 +1,4 @@
-import {Header}  from "./components/Header";
+import Header  from "./components/Header";
 import { Container } from "./components/styles/Container.styled"
 
 function App() {

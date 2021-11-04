@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react"
+import { StyledHeader } from "./styles/StyledHeader.styled"
 
-export const Header = () => {
+
+ const Header = () => {
     return (
-        <header>
-            <h1>Header</h1>
+        <StyledHeader bg="red">
+            <h1>Hubble</h1>
             <p>I am coming home</p>
-        </header>
+        </StyledHeader>
     )
 }
+
+export default Header
